@@ -1,48 +1,72 @@
-# Astro Starter Kit: Minimal
+<div align="center">
+    <a href="https://hua-astro-fv.netlify.app" target="_blank">
+      <img src="public/design/preview.webp" alt="Project Banner">
+    </a>
+  <h3 align="center">Hua - Astro Test</h3>
+</div>
 
+##  <br /> 📋 <a name="table">Table of Contents</a>
+
+- ✨ [Introduction](#introduction)
+- ⚙️ [Tech Stack](#tech-stack)
+- 📝 [Features](#features)
+- 🚀 [Quick Start](#quick-start)
+
+##  <br /> <a name="introduction">✨ Introduction</a>
+
+**[EN]** This project is a test and my first experience with the Astro framework. It showcases a simple portfolio concept for a graphic artist. I used React, TypeScript, Astro, Tailwind CSS, and Framer Motion to create a visually engaging and interactive site.
+
+**[FR]** Ce projet est un test et ma première expérience avec le framework Astro. Il présente un concept simple de portfolio pour un artiste graphique. J'ai utilisé React, TypeScript, Astro, Tailwind CSS et Framer Motion pour créer un site visuellement attrayant et interactif.
+
+##  <br /> <a name="tech-stack">⚙️ Tech Stack</a>
+
+- **Astro** is a modern static site generator designed for speed. It allows you to build websites faster with its optimized build process that ships zero JavaScript by default. Astro supports multiple frontend frameworks, including React, Vue, and Svelte, enabling you to use your favorite tools. It also offers powerful features like server-side rendering, partial hydration, and a straightforward component-based architecture, making it ideal for building highly performant static websites and applications.
+
+- **React** is a popular JavaScript library for building user interfaces, particularly single-page applications where data changes over time. React's component-based architecture allows developers to create reusable UI components, making development more efficient and the codebase easier to maintain. 
+
+- **TypeScript** is a statically typed superset of JavaScript that allows for early detection of errors and more robust, maintainable code. TypeScript's type system helps developers catch mistakes early during the development process, ensuring a more stable and reliable application.
+
+- **Framer Motion** is a React animation library designed for creating smooth, interactive animations and transitions. It simplifies complex animations with a straightforward API, supports gesture-based interactions, and offers physics-based animations for realistic motion effects.
+
+- **Tailwind** is a utility-first CSS framework that speeds up UI development by providing a set of pre-built utility classes. It allows developers to quickly build custom designs without writing traditional CSS, promoting rapid prototyping and design consistency.
+
+
+## <br /> <a name="quick-start">🚀 Quick Start</a>
+
+Follow these steps to set up the project locally on your machine.
+
+<br/>**Prerequisites**
+
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+<br/>**Cloning the Repository**
+
+```bash
+git clone {git remote URL}
 ```
-npm create astro@latest -- --template minimal
+
+<br/>**Installation**
+
+Let's install the project dependencies, from your terminal, run:
+
+```bash
+npm install
+# or
+yarn install
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+<br/>**Running the Project**
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Installation will take a minute or two, but once that's done, you should be able to run the following command:
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+```bash
+npm run dev
+# or
+yarn dev
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:3000`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-# hua-test_astro
+Open [`http://localhost:3000`](http://localhost:3000) in your browser to view the project.
