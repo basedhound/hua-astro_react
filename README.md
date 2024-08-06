@@ -1,6 +1,6 @@
 <div align="center">
     <a href="https://hua-astro-fv.netlify.app" target="_blank">
-      <img src="public/design/preview.webp" alt="Project Banner">
+      <img src="public/design/preview.png" alt="Project Banner">
     </a>
   <h3 align="center">Hua - Astro Test</h3>
 </div>
@@ -20,15 +20,15 @@
 
 ##  <br /> <a name="tech-stack">⚙️ Tech Stack</a>
 
-- **Astro** is a modern static site generator designed for speed. It allows you to build websites faster with its optimized build process that ships zero JavaScript by default. Astro supports multiple frontend frameworks, including React, Vue, and Svelte, enabling you to use your favorite tools. It also offers powerful features like server-side rendering, partial hydration, and a straightforward component-based architecture, making it ideal for building highly performant static websites and applications.
+- [**Astro**](https://docs.astro.build/en/getting-started/) is a modern static site generator designed for speed. It allows you to build websites faster with its optimized build process that ships zero JavaScript by default. Astro supports multiple frontend frameworks, including React, Vue, and Svelte, enabling you to use your favorite tools. It also offers powerful features like server-side rendering, partial hydration, and a straightforward component-based architecture, making it ideal for building highly performant static websites and applications.
 
-- **React** is a popular JavaScript library for building user interfaces, particularly single-page applications where data changes over time. React's component-based architecture allows developers to create reusable UI components, making development more efficient and the codebase easier to maintain. 
+- [**React**](https://react.dev/reference/react) is a popular JavaScript library for building user interfaces, particularly single-page applications where data changes over time. React's component-based architecture allows developers to create reusable UI components, making development more efficient and the codebase easier to maintain. 
 
-- **TypeScript** is a statically typed superset of JavaScript that allows for early detection of errors and more robust, maintainable code. TypeScript's type system helps developers catch mistakes early during the development process, ensuring a more stable and reliable application.
+- [**TypeScript**](https://www.typescriptlang.org/docs/) is a statically typed superset of JavaScript that allows for early detection of errors and more robust, maintainable code. TypeScript's type system helps developers catch mistakes early during the development process, ensuring a more stable and reliable application.
 
-- **Framer Motion** is a React animation library designed for creating smooth, interactive animations and transitions. It simplifies complex animations with a straightforward API, supports gesture-based interactions, and offers physics-based animations for realistic motion effects.
+- [**Framer Motion**]([**Tailwind**](https://v2.tailwindcss.com/docs)) is a React animation library designed for creating smooth, interactive animations and transitions. It simplifies complex animations with a straightforward API, supports gesture-based interactions, and offers physics-based animations for realistic motion effects.
 
-- **Tailwind** is a utility-first CSS framework that speeds up UI development by providing a set of pre-built utility classes. It allows developers to quickly build custom designs without writing traditional CSS, promoting rapid prototyping and design consistency.
+- [**Tailwind**](https://v2.tailwindcss.com/docs) is a utility-first CSS framework that speeds up UI development by providing a set of pre-built utility classes. It allows developers to quickly build custom designs without writing traditional CSS, promoting rapid prototyping and design consistency.
 
 
 ## <br /> <a name="quick-start">🚀 Quick Start</a>
